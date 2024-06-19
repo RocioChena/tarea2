@@ -1,0 +1,319 @@
+@charset "utf-8";
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+li {
+  box-sizing: border-box;
+}
+
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.section_inner {
+  padding: 50px 5% 40px;
+}
+
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+
+.key h1 {
+  font-size: 2.5rem;
+}
+
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+  bottom: -400px;
+}
+
+.fondo {
+  background: url("../images/sample_menu_bg.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.center {
+  text-align: center;
+  padding: 0px;
+}
+
+.cont {
+  padding: 180px 0% 3px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.txt {
+  width: 60%;
+  padding-right: 30px;
+  margin-left: 100px;
+}
+
+.imagen img {
+  justify-content: left;
+  margin-right: 300px;
+  width: 35%;
+  height: 100 px;
+  object-fit: cover;
+}
+
+.hr {
+  margin: 20px 10%;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.horario {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  width: 80px;
+}
+
+.hr {
+  font-size: 1rem;
+  flex: 1;
+}
+
+.footer {
+  background-color: #251e19;
+  color: #fff;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin: 0 10px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: auto;
+
+}
+
+.footer-logo {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 10px;
+  background-color: #251e19;
+  margin-top: -40px;
+}
+
+.edition {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  /* Alinea los items al inicio del contenedor */
+}
+
+.edition img {
+  width: 55%;
+  /* Ajusta el tamaño de la imagen */
+  height: 350px;
+  margin-right: 20px;
+  /* Espacio entre la imagen y el texto */
+}
+
+.colum {
+  display: flex;
+  flex-direction: column;
+  /* Alinea los elementos en columna */
+  justify-content: space-between;
+  /* Distribuye los elementos con espacio entre ellos */
+  height: 100%;
+  /* Asegura que el contenedor de texto ocupe toda la altura del contenedor principal */
+
+}
+
+.titulo {
+  align-self: flex-start;
+  /* Alinea el título al inicio del contenedor de texto */
+  margin: -10px;
+}
+
+.comentario {
+  flex-grow: 1;
+  /* Hace que el comentario ocupe el espacio disponible */
+  margin: 5px;
+  bottom: -100px;
+  position: relative;
+}
+
+.precio {
+  align-self: flex-end;
+  /* Alinea el precio al final del contenedor de texto */
+  margin: 0px;
+  bottom: -250px;
+  position: relative;
+}
+
+.top {
+
+  display: flex;
+  width: 49%;
+  justify-content: space-between;
+  margin-right: 70px;
+  background-color: white;
+}
+
+.edit_menu {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.fil_firt {
+  display: flex;
+  flex-direction: column;
+  /* Alinea los elementos en columna */
+  justify-content: space-between;
+  /* Distribuye los elementos con espacio entre ellos */
+  height: 100%;
+}
+
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  /* Elimina los puntos de la lista */
+  padding: 0;
+  display: flex;
+  /* Usar flexbox para la lista */
+
+  justify-content: space-between;
+}
+
+.column-group {
+  display: flex;
+  flex-direction: column;
+  /* Agrupar en una columna */
+  margin: 0;
+}
+
+.menu-item {
+  width: 49%;
+  display: flex;
+  /* Usar flexbox para los elementos del menú */
+  align-items: center;
+  /* Alinear verticalmente los elementos */
+  margin-bottom: 20px;
+  /* Espacio entre los elementos del menú */
+}
+
+.menu-item-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  /* Colocar el título y el precio en una columna */
+}
+
+.recom_menu {
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+}
